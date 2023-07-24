@@ -15,7 +15,7 @@ spec:
         app: eks-tomcat
     spec:
       containers:
-      - image: 843285683127.dkr.ecr.ap-northeast-2.amazonaws.com/eks-tomcat-1.4
+      - image: 843285683127.dkr.ecr.ap-northeast-2.amazonaws.com/eks-tomcat-final
         name: eks-tomcat
 ---
 apiVersion: v1
