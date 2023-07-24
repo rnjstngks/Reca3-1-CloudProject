@@ -15,7 +15,7 @@ spec:
         app: eks-tomcat
     spec:
       containers:
-      - image: 843285683127.dkr.ecr.ap-northeast-2.amazonaws.com/eks-tomcat
+      - image: 843285683127.dkr.ecr.ap-northeast-2.amazonaws.com/eks-tomcat-1.4
         name: eks-tomcat
 ---
 apiVersion: v1
@@ -29,4 +29,4 @@ spec:
   - port: 8080
     targetPort: 8080
   type: NodePort
-  clusterIP: 172.20.0.3
+  clusterIP: 172.20.0.5
