@@ -15,7 +15,7 @@ spec:
         app: eks-tomcat
     spec:
       containers:
-      - image: 843285683127.dkr.ecr.ap-northeast-2.amazonaws.com/eks-tomcat-final
+      - image: 843285683127.dkr.ecr.ap-northeast-2.amazonaws.com/edit-tomcat:latest
         name: eks-tomcat
         resources:
           limits:
