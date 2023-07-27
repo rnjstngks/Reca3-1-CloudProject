@@ -19,9 +19,9 @@ spec:
         name: eks-tomcat
         resources:
           limits:
-            cpu: 500m
-          requests:
             cpu: 300m
+          requests:
+            cpu: 150m
         volumeMounts:
         - name: persistent-storage
           mountPath: /static
